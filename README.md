@@ -206,6 +206,50 @@ Alt kategori analizi, satış hacmi ile kârlılığın her zaman birlikte artma
 
 Segment analizi sonucunda, **Consumer** segmentinin şirketin en önemli müşteri grubu olduğu görülmektedir. Bununla birlikte **Corporate** ve **Home Office** segmentleri de pozitif kârlılık sağlamaktadır. Şirket, her segment için farklı satış ve pazarlama stratejileri geliştirerek toplam satış ve kârlılığını artırabilir.
 
+### 📊 Müşteri Analizi
+
+#### Amaç
+
+Şirkete en fazla satış ve kâr sağlayan müşterileri belirleyerek müşteri değerini analiz etmek.
+
+#### Kullanılan Alanlar
+
+- Customer Name
+- Sales
+- Profit
+
+#### Bulgular
+
+| Müşteri | Toplam Satış | Toplam Kâr |
+|---------|-------------:|-----------:|
+| Tamara Chand | 18.344,05 | 8.764,95 |
+| Raymond Buch | 15.117,34 | 6.976,10 |
+| Tom Ashbrook | 13.807,77 | 4.523,36 |
+| Adrian Barton | 12.694,91 | 5.088,94 |
+| Christopher Conant | 12.129,07 | 2.177,05 |
+| Sanjit Engle | 11.424,98 | 2.436,95 |
+| Caroline Jumper | 11.164,97 | 858,74 |
+| Hunter Lopez | 10.979,11 | 5.174,40 |
+| Karen Ferguson | 9.999,27 | 1.577,61 |
+| Seth Vernon | 9.501,15 | 1.610,00 |
+
+#### Analiz Sonuçları
+
+- **Tamara Chand**, hem satış hem de kârlılık açısından şirketin en değerli müşterisidir.
+- **Raymond Buch** ve **Tom Ashbrook** da yüksek satış hacmiyle şirketin önemli müşterileri arasında yer almaktadır.
+- Bazı müşteriler yüksek satış hacmine sahip olmasına rağmen kârlılık açısından diğer müşterilere göre daha düşük performans göstermektedir.
+- En değerli müşterilerin belirlenmesi, müşteri ilişkileri yönetimi açısından önemli bir avantaj sağlar.
+
+#### İş Önerileri
+
+- En yüksek satış ve kâr sağlayan müşteriler için müşteri sadakat programları geliştirilebilir.
+- Değerli müşterilere özel kampanyalar ve avantajlar sunularak müşteri bağlılığı artırılabilir.
+- Yüksek satış yapan ancak düşük kârlılık sağlayan müşterilerin sipariş yapıları incelenerek kârlılığı artıracak stratejiler geliştirilebilir.
+
+#### Sonuç
+
+Müşteri analizi sonucunda, şirket gelirinin önemli bir kısmının belirli müşterilerden elde edildiği görülmektedir. Mevcut değerli müşterilerin korunması ve benzer profilde yeni müşterilerin kazanılması, şirketin sürdürülebilir büyümesine katkı sağlayacaktır.
+
 ## Dashboard
 
 (Buraya Power BI ekran görüntülerini ekleyeceğiz.)
