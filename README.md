@@ -26,7 +26,6 @@ Amaç, aşağıdaki iş problemini cevaplamaktır:
 - Boş değerler incelendi.
 - Yinelenen kayıtlar kontrol edildi.
 - Tarih formatı düzenlendi.
-- Discount sütunu yüzde formatına dönüştürüldü.
 
 ---
 
