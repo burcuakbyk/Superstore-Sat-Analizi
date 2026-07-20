@@ -330,6 +330,50 @@ Satış ve kârlılık performansının yıllara göre nasıl değiştiğini inc
 
 Zaman analizi, şirketin 2020 yılında hem satış hem de kârlılık açısından 2019 yılına göre daha başarılı bir performans sergilediğini göstermektedir. Bu durum şirketin büyüme eğiliminde olduğunu göstermektedir.
 
+### 📊 Eyalet Analizi
+
+#### Amaç
+
+Şirketin hangi eyaletlerde daha yüksek satış ve kârlılık elde ettiğini belirleyerek bölgesel performansı değerlendirmek.
+
+#### Kullanılan Alanlar
+
+- State
+- Sales
+- Profit
+
+#### Bulgular
+
+| Eyalet | Toplam Satış | Toplam Kâr |
+|--------|-------------:|-----------:|
+| California | 277.940,26 | 49.372,18 |
+| New York | 165.767,10 | 41.012,02 |
+| Washington | 85.354,18 | 21.466,66 |
+| Texas | 85.107,91 | -14.078,16 |
+| Pennsylvania | 75.754,95 | -9.297,80 |
+| Ohio | 48.012,86 | -9.339,42 |
+| Illinois | 45.385,33 | -9.554,65 |
+| Florida | 40.048,00 | -227,75 |
+| ... | ... | ... |
+
+#### Analiz Sonuçları
+
+- **California**, hem satış hem de kârlılık açısından en başarılı eyalettir.
+- **New York** ve **Washington**, yüksek satış ve yüksek kârlılık sağlayan diğer önemli eyaletlerdir.
+- **Texas**, yüksek satış hacmine rağmen en fazla zarar edilen eyaletlerden biridir.
+- **Pennsylvania**, **Ohio** ve **Illinois** de negatif kârlılık gösteren eyaletler arasındadır.
+- Satış hacminin yüksek olması her zaman yüksek kârlılık anlamına gelmemektedir.
+
+#### İş Önerileri
+
+- California, New York ve Washington'daki başarılı satış stratejileri analiz edilerek diğer eyaletlerde uygulanabilir.
+- Texas, Pennsylvania, Ohio ve Illinois eyaletlerinde maliyet yapısı, fiyatlandırma ve ürün performansı detaylı olarak incelenmelidir.
+- Zarar eden eyaletlerde kârlılığı artıracak bölgesel satış ve pazarlama stratejileri geliştirilebilir.
+
+#### Sonuç
+
+Eyalet analizi sonucunda şirketin en başarılı performansı **California** eyaletinde gösterdiği görülmektedir. Bununla birlikte bazı eyaletlerde yüksek satış hacmine rağmen zarar edilmesi, bölgesel performansın yalnızca satış tutarıyla değil kârlılık açısından da değerlendirilmesi gerektiğini göstermektedir.
+
 ## Dashboard
 
 (Buraya Power BI ekran görüntülerini ekleyeceğiz.)
