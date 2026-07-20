@@ -169,7 +169,42 @@ Kategori analizi sonucunda, şirketin en güçlü kategorisinin **Technology** o
 
 Alt kategori analizi, satış hacmi ile kârlılığın her zaman birlikte artmadığını göstermektedir. Özellikle **Tables** alt kategorisi yüksek satış yapmasına rağmen zarar oluştururken, **Copiers** daha düşük satış hacmiyle en yüksek kârı sağlamaktadır. Bu nedenle şirket yalnızca satış miktarına değil, kârlılığa da odaklanarak ürün stratejilerini şekillendirmelidir.
 
+### 📊 Segment Analizi
 
+#### Amaç
+
+Şirketin farklı müşteri segmentlerinin satış ve kârlılık performansını karşılaştırarak hangi müşteri grubunun şirkete daha fazla katkı sağladığını belirlemek.
+
+#### Kullanılan Alanlar
+
+- Segment
+- Sales
+- Profit
+
+#### Bulgular
+
+| Müşteri Segmenti | Toplam Satış | Toplam Kâr |
+|------------------|-------------:|-----------:|
+| Consumer | 628.768,60 | 81.339,19 |
+| Corporate | 448.954,19 | 57.777,53 |
+| Home Office | 264.698,07 | 36.117,72 |
+
+#### Analiz Sonuçları
+
+- **Consumer** segmenti hem satış hem de kârlılık açısından en başarılı müşteri grubudur.
+- **Corporate** segmenti ikinci sırada yer almakta ve şirket için önemli bir gelir kaynağı oluşturmaktadır.
+- **Home Office** segmenti en düşük satış ve kârlılık değerlerine sahip olmasına rağmen pozitif kârlılık sağlamaktadır.
+- Tüm müşteri segmentleri kâr ürettiği için şirketin müşteri portföyü dengeli bir yapı göstermektedir.
+
+#### İş Önerileri
+
+- Consumer segmentine yönelik müşteri sadakat programları ve kampanyalar geliştirilerek mevcut başarı sürdürülebilir.
+- Corporate segmentinde yeni kurumsal müşteri kazanımına yönelik satış ve pazarlama faaliyetleri artırılabilir.
+- Home Office segmentinde satış hacmini artırmaya yönelik hedefli kampanyalar planlanabilir.
+
+#### Sonuç
+
+Segment analizi sonucunda, **Consumer** segmentinin şirketin en önemli müşteri grubu olduğu görülmektedir. Bununla birlikte **Corporate** ve **Home Office** segmentleri de pozitif kârlılık sağlamaktadır. Şirket, her segment için farklı satış ve pazarlama stratejileri geliştirerek toplam satış ve kârlılığını artırabilir.
 
 ## Dashboard
 
