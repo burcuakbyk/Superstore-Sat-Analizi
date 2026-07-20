@@ -116,6 +116,61 @@ Bölge analizi sonucunda **West** bölgesinin hem satış hem de kârlılık aç
 Kategori analizi sonucunda, şirketin en güçlü kategorisinin **Technology** olduğu görülmektedir. **Furniture** kategorisi ise yüksek satış hacmine rağmen düşük kârlılık göstermektedir. Bu nedenle, şirketin kârlılığını artırmak için öncelikle Furniture kategorisindeki ürünlerin maliyet yapısı ve satış stratejileri analiz edilmelidir.
 💡 Benim küçük bir önerim
 
+### 📊 Alt Kategori Analizi
+
+#### Amaç
+
+Ürün alt kategorilerinin satış ve kârlılık performansını inceleyerek şirket için en başarılı ve geliştirilmesi gereken alt kategorileri belirlemek.
+
+#### Kullanılan Alanlar
+
+- Sub-Category
+- Sales
+- Profit
+
+#### Bulgular
+
+| Alt Kategori | Toplam Satış | Toplam Kâr |
+|--------------|-------------:|-----------:|
+| Phones | 184.302,55 | 22.308,92 |
+| Chairs | 179.473,00 | 13.406,70 |
+| Storage | 128.466,32 | 13.607,09 |
+| Binders | 122.471,37 | 17.885,38 |
+| Tables | 121.726,74 | -11.091,64 |
+| Copiers | 112.498,80 | 42.774,58 |
+| Accessories | 101.842,09 | 25.336,65 |
+| Machines | 99.451,56 | 38,10 |
+| Appliances | 68.977,25 | 13.166,61 |
+| Furnishings | 56.789,22 | 8.034,43 |
+| Bookcases | 56.299,75 | -371,16 |
+| Paper | 48.356,61 | 21.112,38 |
+| Supplies | 30.326,99 | -1.654,28 |
+| Art | 14.823,98 | 3.635,93 |
+| Envelopes | 8.108,46 | 3.508,51 |
+| Labels | 6.688,46 | 2.937,22 |
+| Fasteners | 1.817,73 | 599,02 |
+
+#### Analiz Sonuçları
+
+- **Phones** alt kategorisi en yüksek satış hacmine sahiptir.
+- **Copiers** alt kategorisi, satış sıralamasında üst sıralarda yer almasının yanında en yüksek kârı sağlayan alt kategoridir.
+- **Tables** alt kategorisi yüksek satış hacmine rağmen zarar etmektedir.
+- **Bookcases** ve **Supplies** alt kategorileri de negatif kârlılık göstermektedir.
+- **Machines** alt kategorisinin satış hacmi yüksek olmasına rağmen kârlılığı oldukça düşüktür. Bu durum fiyatlandırma, maliyet veya ürün karmasının incelenmesi gerektiğini göstermektedir.
+
+#### İş Önerileri
+
+- Copiers ve Phones alt kategorilerindeki başarılı ürünlerin satışını artıracak pazarlama çalışmaları planlanabilir.
+- Tables alt kategorisindeki zarar nedenleri detaylı olarak incelenmeli; fiyatlandırma, maliyet ve satış stratejileri gözden geçirilmelidir.
+- Bookcases ve Supplies alt kategorileri için maliyet analizi yapılarak kârlılığı artıracak iyileştirmeler değerlendirilebilir.
+- Machines alt kategorisinin düşük kârlılık nedeni araştırılarak ürün bazında performans analizi yapılmalıdır.
+
+#### Sonuç
+
+Alt kategori analizi, satış hacmi ile kârlılığın her zaman birlikte artmadığını göstermektedir. Özellikle **Tables** alt kategorisi yüksek satış yapmasına rağmen zarar oluştururken, **Copiers** daha düşük satış hacmiyle en yüksek kârı sağlamaktadır. Bu nedenle şirket yalnızca satış miktarına değil, kârlılığa da odaklanarak ürün stratejilerini şekillendirmelidir.
+
+
+
 ## Dashboard
 
 (Buraya Power BI ekran görüntülerini ekleyeceğiz.)
