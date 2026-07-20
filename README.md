@@ -250,6 +250,50 @@ Segment analizi sonucunda, **Consumer** segmentinin şirketin en önemli müşte
 
 Müşteri analizi sonucunda, şirket gelirinin önemli bir kısmının belirli müşterilerden elde edildiği görülmektedir. Mevcut değerli müşterilerin korunması ve benzer profilde yeni müşterilerin kazanılması, şirketin sürdürülebilir büyümesine katkı sağlayacaktır.
 
+### 📊 Ürün Analizi
+
+#### Amaç
+
+Şirkete en fazla satış ve kâr sağlayan ürünleri belirleyerek ürün performansını değerlendirmek.
+
+#### Kullanılan Alanlar
+
+- Product Name
+- Sales
+- Profit
+
+#### Bulgular
+
+| Ürün | Toplam Satış | Toplam Kâr |
+|------|-------------:|-----------:|
+| Canon imageCLASS 2200 Advanced Copier | 61.599,82 | 25.199,93 |
+| Hewlett Packard LaserJet 3310 Copier | 16.079,73 | 6.407,89 |
+| 3D Systems Cube Printer, 2nd Generation, Magenta | 14.299,89 | 3.717,97 |
+| GBC Ibimaster 500 Manual ProClick Binding System | 13.621,54 | 1.826,35 |
+| GBC DocuBind TL300 Electric Binding System | 12.737,26 | 2.753,76 |
+| GBC DocuBind P400 Electric Binding System | 12.521,11 | 762,15 |
+| Samsung Galaxy Mega 6.3 | 12.263,71 | 1.696,76 |
+| HON 5400 Series Task Chairs for Big and Tall | 11.846,56 | 70,10 |
+| Martin Yale Chadless Opener Electric Letter Opener | 11.825,90 | -1.232,56 |
+| Global Troy Executive Leather Low-Back Tilter | 10.169,89 | 776,52 |
+
+#### Analiz Sonuçları
+
+- **Canon imageCLASS 2200 Advanced Copier**, hem satış hem de kârlılık açısından en başarılı üründür.
+- Yazıcı ve fotokopi ürünleri (Copiers) şirketin en yüksek kâr sağlayan ürünleri arasında yer almaktadır.
+- **Martin Yale Chadless Opener Electric Letter Opener** yüksek satış hacmine rağmen zarar etmektedir.
+- **HON 5400 Series Task Chairs for Big and Tall** yüksek satış yapmasına rağmen oldukça düşük kâr sağlamaktadır.
+
+#### İş Önerileri
+
+- Yüksek kârlılık sağlayan ürünlerin stok ve pazarlama planlamasına öncelik verilmelidir.
+- Zarar eden veya çok düşük kârlılık sağlayan ürünlerin fiyatlandırma ve maliyet yapısı gözden geçirilmelidir.
+- En başarılı ürünlerin benzer modelleri veya tamamlayıcı ürünleri ön plana çıkarılarak satış hacmi artırılabilir.
+
+#### Sonuç
+
+Ürün analizi, tüm yüksek satış hacmine sahip ürünlerin yüksek kârlılık sağlamadığını göstermektedir. Özellikle yüksek satış yapmasına rağmen düşük veya negatif kârlılık gösteren ürünler detaylı olarak incelenmeli, şirketin ürün portföyü kârlılık odaklı yönetilmelidir.
+
 ## Dashboard
 
 (Buraya Power BI ekran görüntülerini ekleyeceğiz.)
