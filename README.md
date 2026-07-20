@@ -294,6 +294,42 @@ Müşteri analizi sonucunda, şirket gelirinin önemli bir kısmının belirli m
 
 Ürün analizi, tüm yüksek satış hacmine sahip ürünlerin yüksek kârlılık sağlamadığını göstermektedir. Özellikle yüksek satış yapmasına rağmen düşük veya negatif kârlılık gösteren ürünler detaylı olarak incelenmeli, şirketin ürün portföyü kârlılık odaklı yönetilmelidir.
 
+### 📊 Zaman Analizi
+
+#### Amaç
+
+Satış ve kârlılık performansının yıllara göre nasıl değiştiğini inceleyerek şirketin büyüme eğilimini değerlendirmek.
+
+#### Kullanılan Alanlar
+
+- Order Date
+- Sales
+- Profit
+
+#### Bulgular
+
+| Yıl | Toplam Satış | Toplam Kâr |
+|----:|-------------:|-----------:|
+| 2019 | 609.205,60 | 81.795,17 |
+| 2020 | 733.215,26 | 93.439,27 |
+
+#### Analiz Sonuçları
+
+- 2020 yılında satışlar, 2019 yılına göre artış göstermiştir.
+- Kârlılık da satışlarla birlikte artmıştır.
+- Her iki yılda da şirket pozitif kâr elde etmiştir.
+- Veri seti yalnızca 2019 ve 2020 yıllarını kapsadığı için analiz bu iki yıl ile sınırlıdır.
+
+#### İş Önerileri
+
+- 2020 yılında satış ve kârlılığı artıran faktörler analiz edilerek başarılı uygulamalar sürdürülebilir.
+- Yıllık performans düzenli olarak takip edilerek büyüme eğilimi korunabilir.
+- Gelecek dönemlerde aylık ve çeyreklik analizler yapılarak sezonluk değişimler de incelenebilir.
+
+#### Sonuç
+
+Zaman analizi, şirketin 2020 yılında hem satış hem de kârlılık açısından 2019 yılına göre daha başarılı bir performans sergilediğini göstermektedir. Bu durum şirketin büyüme eğiliminde olduğunu göstermektedir.
+
 ## Dashboard
 
 (Buraya Power BI ekran görüntülerini ekleyeceğiz.)
