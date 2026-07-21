@@ -113,7 +113,7 @@ Dashboard oluşturulurken aşağıdaki Excel özelliklerinden yararlanılmışt�
 ---
 
 ## **📷 Dashboard Görseli**
-
+![Excel Dashboard](images/excel_dashboard.png)
 
 ---
 ## Yapılan Analizler
