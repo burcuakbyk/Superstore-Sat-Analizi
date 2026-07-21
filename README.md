@@ -28,7 +28,94 @@ Amaç, aşağıdaki iş problemini cevaplamaktır:
 - Tarih formatı düzenlendi.
 
 ---
+##📈 **Excel Çalışmaları**
 
+Veri analizi sürecinde Excel kullanılarak hem veri hazırlama hem de analiz çalışmaları gerçekleştirilmiştir.
+
+## Kullanılan Excel Fonksiyonları
+
+Projede aşağıdaki Excel fonksiyonları uygulanmıştır.
+
+- ✅ IF (EĞER)
+- ✅ SUMIF (ETOPLA)
+- ✅ COUNTIF (EĞERSAY)
+- ✅ VLOOKUP (DÜŞEYARA)
+- ✅ INDEX + MATCH (İNDİS + KAÇINCI)
+
+---
+
+## Pivot Table Analizleri
+
+Veri farklı bakış açılarıyla Pivot Table kullanılarak analiz edilmiştir.
+
+Oluşturulan Pivot Table'lar:
+
+- Bölgelere Göre Satış ve Kârlılık
+- Kategorilere Göre Satış
+- Alt Kategori Analizi
+- Segment Analizi
+- Ürün Analizi
+- Müşteri Analizi
+- Yıllara Göre Satış
+- Eyalet Analizi
+
+---
+
+## Koşullu Biçimlendirme
+
+Verilerin daha kolay yorumlanabilmesi için koşullu biçimlendirme kullanılmıştır.
+
+- Yüksek satış değerleri vurgulanmıştır.
+- Kâr ve zarar durumları görsel olarak ayrıştırılmıştır.
+
+---
+# 📊 **Excel Dashboard**
+
+Analiz sonuçlarının görselleştirilmesi amacıyla **Microsoft Excel** kullanılarak etkileşimli bir **Dashboard** hazırlanmıştır.
+
+## **📌 KPI Kartları**
+
+Dashboard'un üst bölümünde aşağıdaki temel performans göstergeleri (KPI) oluşturulmuştur.
+
+- 💰 **Toplam Satış**
+- 📈 **Toplam Kâr**
+- 👥 **Toplam Müşteri Sayısı**
+- 📦 **Toplam Sipariş Sayısı**
+
+---
+
+## **📊 Dashboard Grafikleri**
+
+Dashboard içerisinde satış ve kârlılık performansını analiz etmek amacıyla aşağıdaki grafikler hazırlanmıştır.
+
+- 📊 **Bölgelere Göre Satış ve Kârlılık Analizi**
+- 🥧 **Kategorilere Göre Satış Dağılımı**
+- 📊 **En Çok Satış Yapan 10 Alt Kategori**
+- 🥧 **Segmentlere Göre Satış Dağılımı**
+- 📈 **Yıllara Göre Satış Trendi**
+- 📊 **En Çok Satış Yapan 10 Ürün**
+- 📊 **En Değerli 10 Müşteri**
+
+---
+
+## **🛠️ Kullanılan Excel Özellikleri**
+
+Dashboard oluşturulurken aşağıdaki Excel özelliklerinden yararlanılmıştır.
+
+- ✅ **Pivot Table**
+- ✅ **Pivot Chart**
+- ✅ **KPI Kartları**
+- ✅ **Koşullu Biçimlendirme**
+- ✅ **Grafik Biçimlendirme**
+- ✅ **Veri Etiketleri**
+- ✅ **Dinamik Analiz Yapısı**
+
+---
+
+## **📷 Dashboard Görseli**
+
+
+---
 ## Yapılan Analizler
 
 - Bölge Analizi
