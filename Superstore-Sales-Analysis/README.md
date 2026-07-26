@@ -491,6 +491,98 @@ df.to_sql(
 print("Veriler başarıyla SQL Server'a aktarıldı!")
 ```
 ## SQL Çalışmaları
+SQL Server üzerinde Superstore verisi kullanılarak aşağıdaki analizler gerçekleştirilmiştir.
+
+### 1. Genel KPI Analizi
+
+Toplam satış, toplam kâr, sipariş sayısı ve ortalama satış tutarı hesaplanmıştır.
+
+```sql
+-- Toplam Satış
+SELECT 
+    ROUND(SUM(Sales),2) AS Total_Sales
+FROM Superstore;
+
+
+-- Toplam Kâr
+SELECT 
+    ROUND(SUM(Profit),2) AS Total_Profit
+FROM Superstore;
+
+
+-- Toplam Sipariş Sayısı
+SELECT 
+    COUNT(DISTINCT Order_ID) AS Total_Orders
+FROM Superstore;
+
+
+-- Ortalama Satış Tutarı
+SELECT 
+    ROUND(AVG(Sales),2) AS Average_Sales
+FROM Superstore;
+```
+
+---
+
+### 2. Kategori Bazlı Satış ve Kârlılık Analizi
+
+Kategorilerin satış ve kâr performansları incelenmiştir.
+
+```sql
+SELECT
+    Category,
+    ROUND(SUM(Sales),2) AS Total_Sales,
+    ROUND(SUM(Profit),2) AS Total_Profit
+FROM Superstore
+GROUP BY Category
+ORDER BY Total_Sales DESC;
+```
+
+---
+
+### 3. Bölge Performansı Analizi
+
+Bölgelerin toplam satış ve kâr katkıları analiz edilmiştir.
+
+```sql
+SELECT
+    Region,
+    ROUND(SUM(Sales),2) AS Total_Sales,
+    ROUND(SUM(Profit),2) AS Total_Profit
+FROM Superstore
+GROUP BY Region
+ORDER BY Total_Sales DESC;
+```
+
+---
+
+### 4. En Çok Satış Yapan Ürünler
+
+En yüksek satış değerine sahip ürünler belirlenmiştir.
+
+```sql
+SELECT TOP 10
+    Product_Name,
+    ROUND(SUM(Sales),2) AS Total_Sales
+FROM Superstore
+GROUP BY Product_Name
+ORDER BY Total_Sales DESC;
+```
+
+---
+
+## Veri Doğrulama
+
+SQL sonuçları Excel KPI değerleri ile karşılaştırılmıştır.
+
+Kontrol edilen metrik:
+
+| KPI | Değer |
+|---|---:|
+| Total Sales | 1.342.420,85 |
+
+SQL sorgusu sonucu Excel tarafındaki toplam satış KPI değeri ile eşleşmiştir.
+
 
 #### Sonuç
 
