@@ -489,16 +489,13 @@ df.to_sql(
 )
 
 print("Veriler başarıyla SQL Server'a aktarıldı!")
+```
+## SQL Çalışmaları
 
----
+#### Sonuç
 
-**## SQL Çalışmaları**
-
----
-**## Dashboard**
+## Dashboard**
 
 (Buraya Power BI ekran görüntülerini ekleyeceğiz.)
-
----
 
 **##Sonuç**
