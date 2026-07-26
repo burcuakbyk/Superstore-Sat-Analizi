@@ -583,8 +583,98 @@ Kontrol edilen metrik:
 
 SQL sorgusu sonucu Excel tarafındaki toplam satış KPI değeri ile eşleşmiştir.
 
+### Advanced SQL Analysis
 
-#### Sonuç
+Bu projede aşağıdaki gelişmiş SQL teknikleri kullanılmıştır:
+
+### HAVING
+Gruplandırılmış veriler üzerinde filtreleme yapıldı.
+
+Örnek:
+- Belirli satış seviyesinin üzerindeki kategorilerin bulunması
+
+
+### JOIN
+Farklı tablolar arasında veri birleştirme işlemleri gerçekleştirildi.
+
+
+### CASE WHEN
+Kâr performansına göre ürünler sınıflandırıldı.
+
+
+### CTE
+Karmaşık sorguları daha okunabilir hale getirmek için geçici sonuç tabloları oluşturuldu.
+
+
+### Window Functions
+Bölgesel satış sıralaması ve performans karşılaştırmaları yapıldı.
+
+### VIEW
+
+Analizlerde tekrar kullanılan sorguları kolaylaştırmak ve karmaşık sorguları sadeleştirmek amacıyla SQL View oluşturulmuştur.
+
+Oluşturulan View örnekleri:
+
+- Kategori bazlı satış ve kâr analizi
+- Bölge performans analizi
+- Ürün performans analizi
+
+### Stored Procedure
+
+Tekrar çalıştırılabilir ve parametre alabilen SQL işlemleri oluşturulmuştur.
+
+Kullanım amacı:
+
+- Dinamik analizler yapmak
+- Tekrar eden sorguları yönetmek
+- Parametre ile filtreleme yapmak
+
+### Function
+
+Tekrar kullanılabilir hesaplama işlemleri için SQL Function oluşturulmuştur.
+
+Örnek kullanım:
+
+- Kâr marjı hesaplama
+- Satış performansı hesaplama
+
+### Trigger
+
+Veritabanındaki değişiklikleri otomatik kontrol etmek amacıyla Trigger kullanılmıştır.
+
+Kullanım amacı:
+
+- Veri girişlerini kontrol etmek
+- Değişiklikleri takip etmek
+- Otomatik işlemler gerçekleştirmek
+
+### Filtering & Query Optimization Techniques
+
+Projede veri filtreleme ve sorgu okunabilirliği için aşağıdaki SQL özellikleri kullanılmıştır:
+
+### LIKE
+Metin içerisinde belirli ifadeleri aramak için kullanıldı.
+
+Örnek:
+- Ürün adında belirli kelimeleri içeren kayıtların bulunması
+
+
+### IN
+Birden fazla değere göre filtreleme yapmak için kullanıldı.
+
+Örnek:
+- Belirli kategorilerin analiz edilmesi
+
+
+### BETWEEN
+Belirli sayı veya tarih aralıklarında filtreleme yapmak için kullanıldı.
+
+Örnek:
+- Belirli satış aralığındaki ürünlerin bulunması
+
+
+### ALIAS
+Kolon ve tablo isimlerini daha okunabilir hale getirmek için kullanıldı.
 
 ## Dashboard**
 
