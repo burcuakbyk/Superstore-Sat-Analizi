@@ -8,8 +8,6 @@ Amaç, aşağıdaki iş problemini cevaplamaktır:
 
 "Şirket satışlarını ve kârlılığını artırmak için hangi ürünlere, müşterilere ve bölgelere odaklanmalıdır?"
 
----
-
 ## Kullanılan Araçlar
 
 - Excel
@@ -17,7 +15,9 @@ Amaç, aşağıdaki iş problemini cevaplamaktır:
 - Power BI
 - GitHub
 
----
+##📈 **Excel Çalışmaları**
+
+Veri analizi sürecinde Excel kullanılarak hem veri hazırlama hem de analiz çalışmaları gerçekleştirilmiştir.
 
 ## Veri Temizleme
 
@@ -26,11 +26,6 @@ Amaç, aşağıdaki iş problemini cevaplamaktır:
 - Boş değerler incelendi.
 - Yinelenen kayıtlar kontrol edildi.
 - Tarih formatı düzenlendi.
-
----
-##📈 **Excel Çalışmaları**
-
-Veri analizi sürecinde Excel kullanılarak hem veri hazırlama hem de analiz çalışmaları gerçekleştirilmiştir.
 
 ## Kullanılan Excel Fonksiyonları
 
@@ -41,8 +36,6 @@ Projede aşağıdaki Excel fonksiyonları uygulanmıştır.
 - ✅ COUNTIF (EĞERSAY)
 - ✅ VLOOKUP (DÜŞEYARA)
 - ✅ INDEX + MATCH (İNDİS + KAÇINCI)
-
----
 
 ## Pivot Table Analizleri
 
@@ -59,16 +52,13 @@ Oluşturulan Pivot Table'lar:
 - Yıllara Göre Satış
 - Eyalet Analizi
 
----
-
 ## Koşullu Biçimlendirme
 
 Verilerin daha kolay yorumlanabilmesi için koşullu biçimlendirme kullanılmıştır.
 
 - Yüksek satış değerleri vurgulanmıştır.
 - Kâr ve zarar durumları görsel olarak ayrıştırılmıştır.
-
----
+- 
 # 📊 **Excel Dashboard**
 
 Analiz sonuçlarının görselleştirilmesi amacıyla **Microsoft Excel** kullanılarak etkileşimli bir **Dashboard** hazırlanmıştır.
@@ -82,8 +72,6 @@ Dashboard'un üst bölümünde aşağıdaki temel performans göstergeleri (KPI)
 - 👥 **Toplam Müşteri Sayısı**
 - 📦 **Toplam Sipariş Sayısı**
 
----
-
 ## **📊 Dashboard Grafikleri**
 
 Dashboard içerisinde satış ve kârlılık performansını analiz etmek amacıyla aşağıdaki grafikler hazırlanmıştır.
@@ -95,8 +83,6 @@ Dashboard içerisinde satış ve kârlılık performansını analiz etmek amacı
 - 📈 **Yıllara Göre Satış Trendi**
 - 📊 **En Çok Satış Yapan 10 Ürün**
 - 📊 **En Değerli 10 Müşteri**
-
----
 
 ## **🛠️ Kullanılan Excel Özellikleri**
 
@@ -110,12 +96,9 @@ Dashboard oluşturulurken aşağıdaki Excel özelliklerinden yararlanılmışt�
 - ✅ **Veri Etiketleri**
 - ✅ **Dinamik Analiz Yapısı**
 
----
-
 ## **📷 Dashboard Görseli**
 ![Excel Dashboard](images/excel_dashboard.png)
 
----
 ## Yapılan Analizler
 
 - Bölge Analizi
@@ -126,7 +109,6 @@ Dashboard oluşturulurken aşağıdaki Excel özelliklerinden yararlanılmışt�
 - İndirim Analizi
 - Zaman Analizi
 
----
 ### 📊 Bölge Analizi
 
 #### Amaç
@@ -461,10 +443,62 @@ Zaman analizi, şirketin 2020 yılında hem satış hem de kârlılık açısın
 
 Eyalet analizi sonucunda şirketin en başarılı performansı **California** eyaletinde gösterdiği görülmektedir. Bununla birlikte bazı eyaletlerde yüksek satış hacmine rağmen zarar edilmesi, bölgesel performansın yalnızca satış tutarıyla değil kârlılık açısından da değerlendirilmesi gerektiğini göstermektedir.
 
-## Dashboard
+### Python ile Veri Aktarımı
+
+Excel dosyası Python kullanılarak pandas kütüphanesi ile okundu.
+
+Gerçekleştirilen işlemler:
+
+- Excel dosyasının pandas DataFrame'e aktarılması
+- Veri yapısının kontrol edilmesi
+- SQL Server bağlantısının kurulması
+- Verinin SQL Server veritabanına aktarılması
+
+Kullanılan kütüphane:
+
+```python
+import pandas as pd
+
+Kullanılan kod satırları :
+import pandas as pd
+from sqlalchemy import create_engine
+import urllib
+
+# Excel dosyasının yolu
+excel_file = "C:\\Users\\Burcu\\OneDrive\\Desktop\\SQL_Import\\Superstore Dataset.xlsx"
+
+# Excel'i oku
+df = pd.read_excel(excel_file)
+
+# SQL Server bağlantısı
+params = urllib.parse.quote_plus(
+    "DRIVER={ODBC Driver 17 for SQL Server};"
+    "SERVER=(local)\\SQLEXPRESS;"
+    "DATABASE=KaggleData;"
+    "Trusted_Connection=yes;"
+)
+
+engine = create_engine(f"mssql+pyodbc:///?odbc_connect={params}")
+
+# SQL Server'a aktar
+df.to_sql(
+    "Superstore",
+    con=engine,
+    if_exists="replace",
+    index=False
+)
+
+print("Veriler başarıyla SQL Server'a aktarıldı!")
+
+---
+
+**## SQL Çalışmaları**
+
+---
+**## Dashboard**
 
 (Buraya Power BI ekran görüntülerini ekleyeceğiz.)
 
 ---
 
-## Sonuç
+**##Sonuç**
