@@ -97,7 +97,7 @@ Dashboard oluşturulurken aşağıdaki Excel özelliklerinden yararlanılmışt�
 - ✅ **Dinamik Analiz Yapısı**
 
 ## **📷 Dashboard Görseli**
-![Excel Dashboard](images/excel_dashboard.png)
+![Excel Dashboard](Dashboard/excel_dashboard.png)
 
 ## Yapılan Analizler
 
