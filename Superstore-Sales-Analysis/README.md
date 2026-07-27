@@ -678,6 +678,7 @@ Kolon ve tablo isimlerini daha okunabilir hale getirmek için kullanıldı.
 
 ## Dashboard**
 
-(Buraya Power BI ekran görüntülerini ekleyeceğiz.)
+![Superstore Sales Dashboard](Dashboard/Dashboard.png)
 
 **##Sonuç**
+Bu dashboard, Superstore veri seti kullanılarak hazırlanmıştır. Satış performansını özetleyen KPI'lar, kategori bazlı satış analizi, bölgesel satış dağılımı, aylık satış trendi ve etkileşimli filtreler içerir. Veri hazırlama Excel'de yapılmış, SQL Server'a aktarılmış ve analizler Power BI ile görselleştirilmiştir.
