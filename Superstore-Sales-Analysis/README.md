@@ -21,11 +21,10 @@ Veri analizi sürecinde Excel kullanılarak hem veri hazırlama hem de analiz ç
 
 ## Veri Temizleme
 
-- CSV dosyası Excel'e aktarıldı.
 - Veri tipleri kontrol edildi.
 - Boş değerler incelendi.
 - Yinelenen kayıtlar kontrol edildi.
-- Tarih formatı düzenlendi.
+- Tarih formatı kontrol edildi.
 
 ## Kullanılan Excel Fonksiyonları
 
@@ -58,7 +57,8 @@ Verilerin daha kolay yorumlanabilmesi için koşullu biçimlendirme kullanılmı
 
 - Yüksek satış değerleri vurgulanmıştır.
 - Kâr ve zarar durumları görsel olarak ayrıştırılmıştır.
-- 
+- Order-ID kontrolünü koşullu biçimlendirme ile yaptım. Birden fazla Order-ID nin aynı olması aynı siparişe ait birkaç ürünün sipariş edildiği anlamına geliyor.
+
 # 📊 **Excel Dashboard**
 
 Analiz sonuçlarının görselleştirilmesi amacıyla **Microsoft Excel** kullanılarak etkileşimli bir **Dashboard** hazırlanmıştır.
@@ -676,9 +676,9 @@ Belirli sayı veya tarih aralıklarında filtreleme yapmak için kullanıldı.
 ### ALIAS
 Kolon ve tablo isimlerini daha okunabilir hale getirmek için kullanıldı.
 
-## Dashboard**
+## Dashboard
 
 ![Superstore Sales Dashboard](Dashboard/Dashboard.png)
 
-**##Sonuç**
+## Sonuç
 Bu dashboard, Superstore veri seti kullanılarak hazırlanmıştır. Satış performansını özetleyen KPI'lar, kategori bazlı satış analizi, bölgesel satış dağılımı, aylık satış trendi ve etkileşimli filtreler içerir. Veri hazırlama Excel'de yapılmış, SQL Server'a aktarılmış ve analizler Power BI ile görselleştirilmiştir.
